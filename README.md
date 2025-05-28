@@ -1,18 +1,23 @@
-## Getting Started
+# Proyecto Java Herencia
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descripción
 
-## Folder Structure
+Este proyecto demuestra el uso de la herencia en Java mediante la modelación de la clase ComponentesVehiculares. Cada componente (Motor, Transmisión, Neumático, Chasis, Sistema de Frenos) hereda de una clase base común.
 
-The workspace contains two folders by default, where:
+## Jerarquía de Clases
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+```
+ComponenteVehicular
+├── Motor
+├── Transmision
+├── Neumatico
+├── Chasis
+└── SistemaFrenos
+```
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Estructura del Proyecto
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- `src/Models/`: Contiene las clases del modelo.
+- `src/App.java`: Clase principal para pruebas y demostración.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+![alt text](image.png)
